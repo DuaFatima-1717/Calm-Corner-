@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body background for the full page */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #473f34; /* soft matching light lavender */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #473f34;
+  color: #f0e6ba;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f0e6ba;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fade65;
+}
+
+header:hover {
+  color: #ecbc43;
+}
+
+h1 {
+  color: #f8ff8f;
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  margin: 40vh auto 0 auto;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  margin: 10px auto 0 auto;
+}

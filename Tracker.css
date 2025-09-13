@@ -1,0 +1,98 @@
+body.journal-body {
+  font-family: "EB Garamond", serif;
+
+  color: #d76e00;
+  padding: 2rem;
+}
+
+.journal-container {
+  max-width: 600px;
+  margin: auto;
+
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+
+.prompt {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: beige;
+}
+
+prompt1 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: beige;
+}
+
+textarea {
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #003449;
+
+  font-family: "Quicksand", sans-serif;
+  resize: vertical;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #ffe0ae;
+  color: #d09064;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a96036;
+}
+
+.entries {
+  margin-top: 2rem;
+}
+
+.entries h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed #bbb;
+  padding-bottom: 0.5rem;
+}
+
+#entryList {
+  list-style: none;
+  padding: 0;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+#entryList li {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+
+  border-left: 4px solid #a58b71;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+.entry {
+  color: brown;
+}
+
+.moodEntry {
+  background-color: #0074b7;
+}

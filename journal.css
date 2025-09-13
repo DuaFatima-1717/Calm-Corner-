@@ -1,0 +1,38 @@
+.entry {
+  height: 480px;
+  width: 40%;
+  font-size: 20px;
+  padding: 30px;
+  background-color: rgb(136, 189, 113);
+}
+
+body {
+  background-image: url("https://i.pinimg.com/1200x/53/36/89/5336894f904692589438833645d553ad.jpg"); /* image file */
+  background-image: cover; /* make it fill the screen */
+  background-repeat: no-repeat; /* so no repeating image */
+  background-position: center;
+}
+.save-button {
+  background-color: #53934b;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 14px 24px;
+  transition: transform 0.2s;
+}
+.save-button:hover {
+  transform: translateY(-5px);
+}
+h1 {
+  color: rgb(179, 175, 115);
+  text-shadow: -3px -3px rgb(78, 59, 37);
+  font-size: 40px;
+  font-family: monospace;
+  .highlight {
+    background-color: rgb(78, 59, 37);
+    padding: 4px 8px;
+  }
+}
+h2 {
+  color: rgb(223, 234, 103);
+  font-family: monospace;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mood Journal</title>
+    <link rel="stylesheet" href="Tracker.css" />
+
+    <link rel="index" href="index.html" />
+    <link rel="additionalPage" href="additionalpage.html" />
+
+    <style>
+      body {
+        background-image: url("https://i.pinimg.com/1200x/5b/0f/47/5b0f47f92aad2edbf51c43ef5b623d4d.jpg");
+        background-image: cover;
+        background-repeat: no-repeat;
+        background-position: relative;
+        background-size: 1500px;
+      }
+    </style>
+
+    <!-- Optional links for navigation -->
+  </head>
+  <body class="journal-body">
+    <div class="journal-container">
+      <h1>Write how you feel</h1>
+      <p class="prompt">Take a moment. Type how you are feeling today.</p>
+
+      <form class="journalForm">
+        <textarea id="moodEntry" placeholder="Start writing here..."></textarea>
+      </form>
+
+      <p class="prompt">Can you name your mood.</p>
+      <form class="journalForm">
+        <textarea id="moodEntry" placeholder="Start writing here..."></textarea>
+      </form>
+
+      <p class="prompt">On a scale of 1-10, how intense is this mood?</p>
+      <form class="journalForm">
+        <textarea id="moodEntry" placeholder="Start writing here..."></textarea>
+      </form>
+
+      <p class="prompt">
+        Did your mood change throughout the day? (Yes/No — if yes, when and
+        how?)
+      </p>
+      <form class="journalForm">
+        <textarea id="moodEntry" placeholder="Start writing here..."></textarea>
+      </form>
+
+      <button type="submit">Save Entry</button>
+      <button onclick="history.back();">Go Back</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

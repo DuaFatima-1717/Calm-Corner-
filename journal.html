@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Journal</title>
+    <link rel="stylesheet" href="journal.css" />
+
+    <link rel="index" href="index.html" />
+
+    <link rel="additionalPage" href="additionalpage.html" />
+    <div class= "date-container">
+    <div class="date-button">
+      Date: <input type="text" placeholder="dd/mm/yyyy"
+    </div>
+
+    <style>
+      body {
+        background-image: url("https://i.pinimg.com/1200x/53/36/89/5336894f904692589438833645d553ad.jpg"); /* image file */
+        background-size: cover; /* make it fill the screen */
+        background-repeat: no-repeat; /* so no repeating image */
+        background-position: center;
+        height: 660px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Your Journal</h1>
+    <h2>This is where you can record your thoughts - unfiltered.</h2>
+
+    <textarea class="entry"></textarea><br />
+    <button class="save-button" onclick="save()">Save Entry</button>
+    <div id="output"></div>
+
+    <script>
+      function save() {
+        const button = document.querySelector(".save-button");
+        button.textContent = "Entry Saved!";
+      }
+    </script>
+  </body>
+</html>

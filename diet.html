@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Diet Space</title>
+    <link rel="stylesheet" href="diet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Diet Space</h1>
+      <div class="question">
+        <p>Want something to eat?</p>
+        <button onclick="handleAnswer('yes')">Yes</button>
+        <button onclick="handleAnswer('no')">No</button>
+      </div>
+      <div id="response" class="hidden"></div>
+      <div id="explore" class="hidden">
+        <button onclick="showMenu()">Explore Menu</button>
+      </div>
+      <div id="menu" class="hidden">
+        <div class="diet-option" onclick="showRecipe('keto')">Keto Diet</div>
+        <div class="diet-option" onclick="showRecipe('vegan')">Vegan Diet</div>
+        <div class="diet-option" onclick="showRecipe('highProtein')">
+          High Protein
+        </div>
+        <div class="diet-option" onclick="showRecipe('lowFat')">Low Fat</div>
+        <div class="diet-option" onclick="showRecipe('mediterranean')">
+          Mediterranean
+        </div>
+      </div>
+      <div id="recipes" class="hidden">
+        <button onclick="backToMenu()">Back</button>
+        <div id="recipeContent"></div>
+      </div>
+    </div>
+
+    <script src="diet.js"></script>
+  </body>
+</html>

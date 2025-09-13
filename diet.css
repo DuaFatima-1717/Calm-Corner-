@@ -1,0 +1,120 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: url("https://i.pinimg.com/736x/60/ce/ba/60ceba9ef67b2c658937b128e11a5fe1.jpg");
+
+  color: #3e2c23;
+  background-position-x: 300px;
+  background-position-y: 600px;
+  background-size: 98%;
+  background-position: center;
+  background-repeat: no-repeat repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.content-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 95%;
+  width: 600px;
+}
+
+@media (max-width: 768px) {
+  .content-box {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-box {
+    padding: 1rem;
+  }
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(234, 229, 229);
+
+  width: 90%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(234, 229, 229);
+
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  border: 2px solid #8d6e63;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e6c3a3;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #a1887f;
+  color: white;
+  font-size: 1rem;
+  transition: transform 0.2s, background-color 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #8d6e63;
+}
+
+.diet-option {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  background-color: #d7ccc8;
+  border: 1px solid #8d6e63;
+  border-radius: 12px;
+  width: 40%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.diet-option:hover {
+  background-color: #a1887f;
+  color: white;
+  transform: rotate(-2deg) scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+#recipeContent {
+  padding: 1rem;
+  text-align: left;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-top: 1rem;
+}

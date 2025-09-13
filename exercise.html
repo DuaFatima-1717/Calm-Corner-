@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercise</title>
+    <link rel="stylesheet" href="exercise.css" />
+    <link rel="index" href="index.html" />
+    <!--This links your new page to the main page-->
+    <link rel="additionalPage" href="additionalpage.html" />
+    <style>
+    body { 
+      background-image: url("assets/5211139985980388081.jpg"); 
+      background-image: cover; 
+      background-repeat: no-repeat; 
+      background-position: relative;
+      background-size: 1600px 790px;
+    } 
+    </style>
+<button onclick="history.back();">Go Back</button>
+  </head>
+  <h1>EXERCISES</h1>
+  <h2>
+    We’re not chasing results — we’re listening. To the breath. To the rustle of
+    thoughts. To the warmth in your palms. Let this time become a little secret
+    garden inside your everyday — where the body rests, and the soul remembers
+    what it means to simply be. Stay for a while. Listen to yourself. Everything
+    else can wait.
+  </h2>
+
+  <link rel="stylesheet" href="./exercise.css" />
+  <!--first card-->
+  <div class="card">
+    <!-- inside of card -->
+    <div class="circle">
+      <img src="assets/Flux_Dev_A_serene_girl_with_delicate_facial_features_and_pale__3.jpg"/>
+    </div>
+    <div class="info">
+      <h3>Yoga</h3>
+      <p>
+        Yoga is for those seeking inner calm, softness, and grounding. It helps
+        relax the mind, improve posture, and deepen breathing. Great for anyone
+        feeling stressed, anxious, or tired. Yoga is a practice of stillness,
+        mindfulness, and acceptance — no rush, just presence.
+      </p>
+      <h4>Recomandations for you</h4>
+      <p>
+        here are the links
+        <div id="moreTextyoga" class="hidden">
+          <ul>
+            <li><a href="https://youtu.be/C2RAjUEAoLI?si=vnM89dB4byXfdXmw" target="_blank">Yoga Video 1</a></li>
+            <li><a href="https://youtu.be/UxU8OCsNbYY?si=_sV5CQCyZr9AkLcx" target="_blank">Yoga Video 2</a></li>
+          </ul>
+        </div>
+      </p>
+      
+        <button id="yoga">read more</button>
+        
+      </div>
+    </div>
+  </div>
+  <!--Java for first-->
+  <script>
+    const yoga = document.getElementById("yoga");
+    const moreTextyoga = document.getElementById("moreTextyoga");
+
+    yoga.addEventListener("click", () => {
+      if (moreTextyoga.classList.contains("hidden")) {
+        moreTextyoga.classList.remove("hidden");
+        yoga.textContent = "hide";
+      } else {
+        moreTextyoga.classList.add("hidden");
+        yoga.textContent = "read more";
+      }
+    });
+  </script>
+
+  <!-- second card-->
+  <div class="card2">
+    <!-- inside of card -->
+    <div class="circle2">
+      <img src="assets/Flux_Dev_A_serene_girl_with_delicate_facial_features_and_pale__0.jpg"/>
+    </div>
+    <div class="info2">
+      <h3>Pilates</h3>
+      <p>
+        Pilates is for those who want to strengthen deep muscles, improve
+        posture, and gain body control. Especially helpful for people who sit a
+        lot, have a weak back, or want to balance strength and flexibility.
+        Ideal if you want tone and confidence without joint strain.
+      </p>
+      <h4>Recomandations for you</h4>
+      <p>
+          here are the links
+          <div id="moreTextpilates" class="hidden">
+          <ul>
+            <li><a href="https://youtu.be/zbK-HgqWClA?si=HHEkFYwKlX6Mygut" target="_blank">Pilates Video 1</a></li>
+            <li><a href="https://youtu.be/_y39T5jQfFM?si=8sYfH3I97ZfSpGkA" target="_blank">Pilates Video 2</a></li>
+          </ul>
+          </div>
+        </p>
+        <button style="font-size: 20px;padding: 10px 20px;"id="pilates">read more</button>
+    </div>
+  </div>
+<!--Java script for second -->
+<script>
+  const pilates = document.getElementById("pilates");
+  const moreTextpilates = document.getElementById("moreTextpilates");
+
+  pilates.addEventListener("click", () => {
+    if (moreTextpilates.classList.contains("hidden")) {
+      moreTextpilates.classList.remove("hidden");
+      pilates.textContent = "hide";
+    } else {
+      moreTextpilates.classList.add("hidden");
+      pilates.textContent = "read more";
+    }
+  });
+</script>
+
+  <!-- third card-->
+  <div class="card3">
+    <!--here is third card inside-->
+    <div class="circle3">
+      <img src="assets/Flux_Dev_A_serene_illustration_of_a_young_girl_with_delicate_f_2.jpg"/>
+    </div>
+    <div class="info3">
+    <h3>Warm-Up</h3>
+    <p>
+      A gentle warm-up is for anyone wanting to wake up the body in the morning,
+      relieve tension after sitting, or prepare for other activities. It’s light
+      movement that gets the blood flowing and muscles saying "thank you."
+      Suitable for everyone, anytime.
+    </p>
+    <h4>Recomandations for you</h4>
+      <p>
+          here are the links
+          <div id="moreTextwarmup" class="hidden">
+            <ul>
+              <li><a href="https://youtu.be/-p0PA9Zt8zk?si=CCKz--w85ISV6Hr_" target="_blank">Warm-up Video 1</a></li>
+              <li><a href="https://youtu.be/AUsbthQ9W-I?si=PkU-DTAaRUbTfQA6" target="_blank">Warm-up Video 2</a></li>
+            </ul>
+            </div>
+        </p>
+        <button style="font-size: 20px;padding: 10px 20px;"id="warmup">read more</button>
+      </div>
+    </div>
+  <!--Java for third-->
+  <script>
+    const warmup = document.getElementById("warmup");
+    const moreTextwarmup = document.getElementById("moreTextwarmup");
+
+    warmup.addEventListener("click", () => {
+      if (moreTextwarmup.classList.contains("hidden")) {
+        moreTextwarmup.classList.remove("hidden");
+        warmup.textContent = "hide";
+      } else {
+        moreTextwarmup.classList.add("hidden");
+        warmup.textContent = "read more";
+      }
+    });
+  </script>
+</html>
