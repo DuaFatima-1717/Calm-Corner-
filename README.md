@@ -27,3 +27,5 @@ Tech Stack:
 Collaboration: Worked closely with team members to ensure consistent style and functionality
 
 Calm Corner combines functionality and design to create a calm, motivating space for wellness tracking, helping users build healthier routines with ease and enjoyment.
+
+Project Deployment: calm-corner-production.up.railway.app
