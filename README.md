@@ -1,4 +1,4 @@
-                                             Calm Corner 🌸
+ Calm Corner 🌸
 Role: Frontend Developer – Diet Space Module
 
 Calm Corner is a wellness-focused web app built using HTML, CSS, and JavaScript as part of the Kode With Klossy program. The app helps users cultivate healthy routines and track their wellbeing through five core features:
